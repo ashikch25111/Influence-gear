@@ -99,6 +99,15 @@ img{
     border: none;
     border-radius: 41px;
     padding: 10px 24px;
+    border: 2px solid transparent;
+
+    
+}
+
+.btn:hover{
+border: 2px solid #E02C6D;
+color: #E02C6D;
+background: none;
 }
 
 .banner-image{
