@@ -101,13 +101,18 @@ img{
     padding: 10px 24px;
     border: 2px solid transparent;
 
-    
+    transition: background-color 0.3s ease, 
+                color 0.3s ease, 
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
 }
 
 .btn:hover{
 border: 2px solid #E02C6D;
 color: #E02C6D;
 background: none;
+transform: translateX(3px);
+box-shadow: 0 8px 20px rgba(224, 44, 109, 0.4);
 }
 
 .banner-image{
