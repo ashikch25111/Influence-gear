@@ -62,10 +62,13 @@ img{
     margin-right: 34px;
 }
 
-.navbar-items li a{
+.menu{
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
+}
+.menu:hover{
+    border-bottom: 2px solid #3A3A3A ;
 }
 
 /* banner style */
